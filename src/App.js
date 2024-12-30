@@ -1,19 +1,12 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Learn from "./components/Learnings";
-import Achievers from "./components/Achievers";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Header/>
-      <Learn/>
-      <About/>
-      <Contact/>
+      <Footer/>
     </div>
   );
 }

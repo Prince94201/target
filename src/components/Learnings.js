@@ -12,7 +12,7 @@ import php from "../images/php.png";
 function Feature(){
     return (
         <div id="features">
-            <h1>Learnings</h1>
+            <h1> YOU CAN LEARN</h1>
             <div className="a-container">
                 <Featurebox image={c} title="C"/>
                 <Featurebox image={cpp} title="C++"/>

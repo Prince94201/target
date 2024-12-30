@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css');
 
 body{
     margin:0px;
@@ -29,7 +30,7 @@ input{
 }
 #main{
     width:100%;
-    height:600px;
+    height:400px;
     position: relative;
     z-index: 0;
 }
@@ -43,8 +44,9 @@ nav{
 	top: 0;
 	width:100%;
 	z-index: 1;
-    background-color: transparent;
+    background-color: rgb(255, 255, 255);
     transition: 0.6s ease-in-out;
+    box-shadow: 0.5px 1px 1.5px #d5d5d5;
 }
 nav.active{
 	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.157);
@@ -96,7 +98,7 @@ nav .menu-btn,
 	width: 900px;
 	position: absolute;
   left: 50%;
-	top: 50%;
+	top: 70%;
 	transform: translate(-50%,-55%);
 }
 .header-heading span{
@@ -113,9 +115,15 @@ nav .menu-btn,
 	letter-spacing: 2px;
 	color:#000000;
 }
+.header-heading hr{
+    width: 45px;
+    height: 3px ;
+    margin-left: 48%;
+    margin-top: 2%;
+}
 .header-btns{
     display: flex;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 41%;
 }
 .header-btn{
@@ -146,11 +154,11 @@ nav .menu-btn,
     flex-direction: column;
     align-items: center;
     justify-content:flex-start;
-    padding-top: 70px ;
-    background-color: #1e1e1e;
+    padding-top: 90px ;
+    background-color: #ffffff;
 }
 #features h1{
-    color: #fff;
+    color: #FF1414;
     font-size: 3rem;
 }
 .a-container{
@@ -159,7 +167,7 @@ nav .menu-btn,
     align-content: center;
 }
 .a-box{
-    background-color: #000000;
+    background-color: #e5e5e5;
     width:250px;
     height:330px;
     margin: 20px;
@@ -183,21 +191,18 @@ nav .menu-btn,
     transform: scale(1.1);
 }
 .a-box:hover{
-    border: 1px solid #FF1414;
+    border: 1px solid #ff4141;
     box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445);
 }
 .a-b-text{
     width: 100%;
     height: 40%;
-    background-color:#000000;
+    background-color:#e5e5e5;
     display:flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
-}
-.a-b-text h2{
-    color: #fff;
 }
 .a-b-text button{
     width: 80%;
@@ -210,7 +215,7 @@ nav .menu-btn,
 }
 
 #about{
-    margin-top:100px ;
+    margin-top:70px ;
 	width:100%;
 	height: 120vh;
 	box-sizing: border-box;
@@ -268,18 +273,20 @@ nav .menu-btn,
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 90px;
 }
 #contact h1{
-    color: #000000;
+    color: #ff0000;
     font-size: 3rem;
 }
+
 #contact form{
     width:600px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-top: 30px;
 }
 #contact form input,
 #contact form textarea{
@@ -296,9 +303,53 @@ nav .menu-btn,
 #contact form textarea{
     height: 150px;
 }
-#contact form input[type="submit"]{
+#contact form button{width:600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 45px;
     background: linear-gradient(90deg, #FF1414 20%,#f70000);
     color: #ffffff;
-    text-transform: uppercase;
+    border-radius: 7px;
+}
+
+.detail{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #dad7d7;
+    padding-bottom: 17px;
+}
+.headings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+    color: #ffffff;
+}
+.headings h2{
+    margin: 0px 300px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content p{
+    margin: 25px 250px ;
+}
+.location{
+    justify-content: left;
+    width: 95%;
+    margin: 40px 0px 25px 0px;
+}
+.map{
+    margin-top: 20px;
+    border-image: 0%;
+}
+.details{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
