@@ -1,0 +1,22 @@
+{
+    "name": "React App Development",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+    "forwardPorts": [
+      3000
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "javascript.validate.enable": true,
+          "editor.formatOnSave": true
+        },
+        "extensions": [
+          "vscode-react-ts.vscode-react",
+          "esbenp.prettier-vscode",
+          "dbaeumer.vscode-eslint"
+        ]
+      }
+    },
+    "postCreateCommand": "npm install"
+  }
+  

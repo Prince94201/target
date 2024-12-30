@@ -1,70 +1,136 @@
-# Getting Started with Create React App
+# Institute Website Sample
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a sample institute website featuring dynamic content such as courses, achievers, and a director's column. The site also includes a seamless carousel feature to enhance the user experience.
+
+## Getting Started
+
+### Prerequisites
+
+To run this application, you need to have **Daytona** installed. Daytona helps you run cloud-based containers without setting up the environment locally.
+
+### Installation & Running via Daytona
+
+1. **Install Daytona**  
+   Follow the [Daytona installation guide](https://daytona.io/docs/installation) to install Daytona.
+
+2. **Create a Workspace**  
+   Once Daytona is installed, open your terminal and start the server with the following command:
+
+   ```bash
+   daytona serve
+   ```
+
+   This will start a daemon server and a cloud container where you can test your application without setting it up locally.
+
+3. **Create the Project Workspace**  
+   To set up this application, use the following command:
+
+   ```bash
+   daytona create https://github.com/Prince94201/target.git
+   ```
+
+   This will pull the sample project repository and set up the container for you.
+
+4. **Access the Application**  
+   Once the project setup is complete, open your web browser and visit:
+
+   ```
+   http://localhost:8080
+   ```
+
+   This will open the live instance of the website where you can see the sample content and interactive features.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start`: Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  
+- `npm test`: Launches the test runner in interactive watch mode. See the section about running tests for more information.
+  
+- `npm run build`: Builds the app for production to the `build` folder. It optimizes the build for best performance and minifies the app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `npm run eject`: Ejects the build tool and configuration, giving you full control over them.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Seamless Carousel**: A dynamic carousel feature showcasing important institute highlights.
+- **Dynamic Content**: The site includes sample courses, an achievers section, and a director's message.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To learn more about how the project works or to contribute, feel free to explore the resources below:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Create React App documentation](https://reactjs.org/docs/create-a-new-react-app.html)
+- [Daytona documentation](https://daytona.io/docs)
 
-### Code Splitting
+## Troubleshooting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For any issues related to building or running the app, you can refer to the troubleshooting guide here:  
+[Create React App Troubleshooting](https://facebook.github.io/create-react-app/docs/troubleshooting)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Let me know if you need further modifications!Here's a revamped README based on the details you provided:
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Institute Website Sample
 
-### Advanced Configuration
+This is a sample institute website featuring dynamic content such as courses, achievers, and a director's column. The site also includes a seamless carousel feature to enhance the user experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Getting Started
 
-### Deployment
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To run this application, you need to have **Daytona** installed. Daytona helps you run cloud-based containers without setting up the environment locally.
 
-### `npm run build` fails to minify
+### Installation & Running via Daytona
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Install Daytona**  
+   Follow the [Daytona installation guide](https://daytona.io/docs/installation) to install Daytona.
+
+2. **Create a Workspace**  
+   Once Daytona is installed, open your terminal and start the server with the following command:
+
+   ```bash
+   daytona server
+   ```
+
+   This will start a daemon server and a cloud container where you can test your application without setting it up locally.
+
+3. **Create the Project Workspace**  
+   To set up this application, use the following command:
+
+   
+
+   This will open the live instance of the website where you can see the sample content and interactive features.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+- `npm start`: Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  
+- `npm test`: Launches the test runner in interactive watch mode. See the section about running tests for more information.
+  
+- `npm run build`: Builds the app for production to the `build` folder. It optimizes the build for best performance and minifies the app.
+
+- `npm run eject`: Ejects the build tool and configuration, giving you full control over them.
+
+## Features
+
+- **Seamless Carousel**: A dynamic carousel feature showcasing important institute highlights.
+- **Dynamic Content**: The site includes sample courses, an achievers section, and a director's message.
+
+## Learn More
+
+To learn more about how the project works or to contribute, feel free to explore the resources below:
+
+- [Create React App documentation](https://reactjs.org/docs/create-a-new-react-app.html)
+- [Daytona documentation](https://daytona.io/docs)
+
+## Troubleshooting
+
+For any issues related to building or running the app, you can refer to the troubleshooting guide here:  
+[Create React App Troubleshooting](https://facebook.github.io/create-react-app/docs/troubleshooting)
